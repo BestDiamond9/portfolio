@@ -93,7 +93,7 @@ in fast-paced engineering teams."
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-1'
-                    defaultMessage='More than a year of professional experience in this language, allows me to perform without problems in the industry.'
+                    defaultMessage='Over eight years of experience building clean, accessible, and well-structured interfaces. I use HTML with a focus on semantic layout, maintainability, and compatibility across modern browsers.'
                   />
                 </p>
               </div>
@@ -103,7 +103,7 @@ in fast-paced engineering teams."
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-2'
-                    defaultMessage='More than a year of work experience in this language, I use it daily to develop web designs and interfaces.'
+                    defaultMessage='Extensive experience creating responsive and visually consistent designs. I apply best practices in layout, animations, and component styling to deliver polished UI experiences.'
                   />
                 </p>
               </div>
@@ -113,7 +113,7 @@ in fast-paced engineering teams."
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-3'
-                    defaultMessage='A year of experience using it in the front-end and back-end branch, allowed me to familiarize myself with the language, and include it in my work projects.'
+                    defaultMessage='Solid understanding of JavaScript across both client and server environments. I use it daily to build interactive interfaces, handle application logic, and integrate with various APIs and services.'
                   />
                 </p>
               </div>
@@ -123,7 +123,7 @@ in fast-paced engineering teams."
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-4'
-                    defaultMessage='One year using this preprocessor in the professional field, I include it in many of my projects since it allows me a better structured code.'
+                    defaultMessage='I incorporate Sass to write modular, maintainable, and scalable stylesheets. It helps me organize design systems and keep large UI codebases clean and efficient.'
                   />
                 </p>
               </div>
@@ -133,7 +133,7 @@ in fast-paced engineering teams."
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-5'
-                    defaultMessage='Less than a year using this framework, even so, I used it in countless work projects, which allowed me to get to know it for the most part.'
+                    defaultMessage='Practical experience using Bootstrap to accelerate layout development and ensure consistent styling. I customize components when needed to match project-specific designs.'
                   />
                 </p>
               </div>
@@ -143,7 +143,7 @@ in fast-paced engineering teams."
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-6'
-                    defaultMessage='A year using this bookstore in the personal and work environment, it is one of the bookstores that I use and manipulate the most.'
+                    defaultMessage='Experienced in maintaining and extending legacy systems that depend on jQuery. I use it efficiently when working with older codebases or lightweight interactions.'
                   />
                 </p>
               </div>
@@ -153,7 +153,7 @@ in fast-paced engineering teams."
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-7'
-                    defaultMessage='More than a year using this JavaScript framework, carrying out multiple personal and work projects.'
+                    defaultMessage='More than six years developing modern front-end applications with React. I build reusable components, manage state effectively, and create smooth user experiences for dashboards, landing pages, and full applications.'
                   />
                 </p>
               </div>
@@ -163,7 +163,7 @@ in fast-paced engineering teams."
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-8'
-                    defaultMessage='It is the cross-platform runtime environment that I use to make my web applications scalable.'
+                    defaultMessage='Proficient in using Node.js to build scalable backend services, real-time features, and efficient API layers. I rely on it for projects requiring high performance and fast delivery.'
                   />
                 </p>
               </div>
@@ -173,7 +173,37 @@ in fast-paced engineering teams."
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-9'
-                    defaultMessage='It is a framework that I use mostly to be able to manage my APIs in the best way and my http execution model.'
+                    defaultMessage='Skilled in building structured REST APIs using Express. I design clean routing, middleware layers, authentication flows, and integrations that support scalable applications.'
+                  />
+                </p>
+              </div>
+              <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
+                <img alt="python" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python" />
+                <h2 className="skill-name">Python</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-10'
+                    defaultMessage='Eight years of experience developing robust applications with Python. I use it for backend services, automation, API development, and general-purpose problem solving.'
+                  />
+                </p>
+              </div>
+              <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
+                <img alt="django" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" title="Django" />
+                <h2 className="skill-name">Django</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-11'
+                    defaultMessage='Hands-on experience building complete web applications with Django, leveraging its ORM, admin system, authentication tools, and full-stack capabilities.'
+                  />
+                </p>
+              </div>
+              <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
+                <img alt="flask" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg" title="Flask" />
+                <h2 className="skill-name">Flask</h2>
+                <p className="skill-info  ">
+                  <FormattedMessage
+                    id='about-skills-12'
+                    defaultMessage='Used for building lightweight APIs and microservices. I apply Flask when projects need flexibility, minimal overhead, and fast iteration.'
                   />
                 </p>
               </div>
