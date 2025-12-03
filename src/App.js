@@ -32,9 +32,9 @@ function App() {
       ) : (
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route exact path="/about" element={<About />}></Route>
-          <Route exact path="/service" element={<Services />}></Route>
-          <Route exact path="/project" element={<Project />}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/service" element={<Services />}></Route>
+          <Route path="/project" element={<Project />}></Route>
         </Routes>
       )}
     </>

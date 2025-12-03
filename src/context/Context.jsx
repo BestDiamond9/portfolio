@@ -7,9 +7,16 @@ const langContext = React.createContext();
 
 
 const LangProvider = ({children}) => {
-    let localePorDefecto;
-	let mensajesPorDefecto;
-	const lang = localStorage.getItem('lang');
+    let localePorDefecto = 'en-US';
+	let mensajesPorDefecto = MensajeIngles;
+	
+	// Safely access localStorage (may not be available during SSR)
+	let lang = null;
+	try {
+		lang = localStorage.getItem('lang');
+	} catch (e) {
+		// localStorage not available
+	}
 
 	if(lang){
 		localePorDefecto = lang
